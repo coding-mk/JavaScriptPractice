@@ -12,22 +12,22 @@ console.log("Lecture 1");
 // console.log(typeof b);
 // console.log(typeof c);
 
-// var d;
-// console.log(d);
-// console.log(typeof d);
+var d;
+console.log(d);
+console.log(typeof d);
 
-// var e = null;
-// console.log(typeof e);
+var e = null;
+console.log(typeof e);
 
-// var a = 2;
-// var b = 2;
-// console.log(a == b);
+var a = 2;
+var b = 2;
+console.log(a == b);
 
-// console.log(a === b);
+console.log(a === b);
 
-// console.log(2 + "abcd"); // Implicit numeric conversion
+console.log(2 + "abcd"); // Implicit numeric conversion
 
-// console.log(-"2" + "2");
+console.log(-"2" + "2");
 
 var a = [1, 2, "hello", true];
 
@@ -37,4 +37,5 @@ b.push("a");
 
 var a = [];
 console.log(a);
+b[7] = "b";
 console.log(b);
