@@ -87,4 +87,14 @@ p.addEventListener(
   true,
 );
 
+var btn = document.getElementById("btn2");
+
+btn.addEventListener("click", () => {
+  if (btn.textContent === "OFF") {
+    btn.textContent = "ON";
+  } else {
+    btn.textContent = "OFF";
+  }
+});
+
 //event delegation
